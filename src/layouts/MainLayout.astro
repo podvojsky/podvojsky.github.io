@@ -1,0 +1,14 @@
+---
+import MainHead from '@components/MainHead.astro';
+import BaseNavbar from '@components/BaseNavbar.vue';
+---
+
+<!doctype html>
+<html lang="en">
+  <MainHead />
+  <body>
+    <h1 class="mb-3 flex flex-col bg-accent-100 pt-4 text-2xl text-primary-500">hello</h1>
+    <div class="absolute left-10 top-0 -z-10 h-10 w-10 bg-red-500"></div>
+    <BaseNavbar client:load />
+  </body>
+</html>
